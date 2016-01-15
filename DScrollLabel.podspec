@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
   s.source_files       =  'DScrollLabel/**/*.h'
   s.preserve_paths   = 'DScrollLabel/libDScrollLabel.a'
-  s.libraries        = 'DScollLabel', 'z'
+  # s.libraries        = 'DScollLabel', 'z'
   s.requires_arc       = true
   s.framework          = 'UIKit'
   s.xcconfig         = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/DScrollLabel"',
