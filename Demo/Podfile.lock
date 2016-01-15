@@ -1,0 +1,19 @@
+PODS:
+  - DScrollLabel (1.0.0)
+
+DEPENDENCIES:
+  - DScrollLabel (from `https://github.com/Chasingdreamboy/DScrollLabel.git`)
+
+EXTERNAL SOURCES:
+  DScrollLabel:
+    :git: https://github.com/Chasingdreamboy/DScrollLabel.git
+
+CHECKOUT OPTIONS:
+  DScrollLabel:
+    :commit: 0c9c985120039c1b0d09e6f247c67601ae44a833
+    :git: https://github.com/Chasingdreamboy/DScrollLabel.git
+
+SPEC CHECKSUMS:
+  DScrollLabel: 681282c6a1bc97f24a7616a69e572e0ad8fb11bc
+
+COCOAPODS: 0.39.0

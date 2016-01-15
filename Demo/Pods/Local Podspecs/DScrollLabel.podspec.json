@@ -1,0 +1,27 @@
+{
+  "name": "DScrollLabel",
+  "version": "1.0.0",
+  "summary": "a label that it's text can automatically scroll",
+  "description": "The label can display the text that can scroll infinitely.",
+  "homepage": "https://github.com/Chasingdreamboy/DScrollLabel",
+  "license": "MIT",
+  "authors": {
+    "Chasingdreamboy": "email@address.com"
+  },
+  "social_media_url": "https://github.com/Chasingdreamboy",
+  "platforms": {
+    "ios": null
+  },
+  "source": {
+    "git": "https://github.com/Chasingdreamboy/DScrollLabel.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "DScrollLabel/**/*.h",
+  "preserve_paths": "DScrollLabel/libDScrollLabel.a",
+  "requires_arc": true,
+  "frameworks": "UIKit",
+  "xcconfig": {
+    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/DScrollLabel\"",
+    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/include/DScrollLabel\""
+  }
+}
